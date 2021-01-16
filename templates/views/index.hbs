@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        {{>head}}
+        <script src="/js/app.js"></script>
+
+    </head>
+    <body>
+        {{>header}}
+
+        <form id='formid' class="activeform">
+           <h2>Search place</h2> <hr />
+            <input
+            id='inputid'
+            type="text",
+            placeholder="Ex: New York ...",
+            autocomplete="off",
+             autofocus
+            >
+
+            <button id='btn' type="submit">Submit</button>
+        </form>
+
+        <div id='divData'>
+        </div>
+        {{>footer}}
+    </body>
+</html>
