@@ -1,3 +1,3 @@
 # weather-website
 
-https://viictorivan-weather-app.herokuapp.com/
+https://victorivan-weather.herokuapp.com/
